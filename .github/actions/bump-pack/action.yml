@@ -20,7 +20,7 @@ inputs:
 
 runs:
   using: 'composite'
-  
+
   steps:
 
     # --- Checkout with the named branch

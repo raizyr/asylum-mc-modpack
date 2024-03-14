@@ -1,0 +1,13 @@
+name = "Argonauts"
+filename = "argonauts-fabric-1.20.4-1.2.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/bb2EpKpx/versions/Lc96Obnn/argonauts-fabric-1.20.4-1.2.0.jar"
+hash-format = "sha1"
+hash = "8cffe21edcac1c0479d7fbbee89fc2d8adff2232"
+
+[update]
+[update.modrinth]
+mod-id = "bb2EpKpx"
+version = "Lc96Obnn"

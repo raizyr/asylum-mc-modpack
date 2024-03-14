@@ -92,7 +92,7 @@ runs:
           echo "::notice ::⚙ Assets from latest release ${{ steps.latest-release.outputs.tag_name }} downloaded successfully!"
           echo "::notice ::⚙ Latest release ${{ steps.latest-release.outputs.tag_name }} description piped into a file successfully!"
         shell: bash
-        
+
 
       - name: Publish to Modrinth
         id: modrinth

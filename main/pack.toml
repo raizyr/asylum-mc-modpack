@@ -1,0 +1,13 @@
+name = "Clan McNabb SMP"
+author = "raizyr"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "97151a4a9d6b02dc48d80828ce11b359a29975d85665c524b22095bc46a1a0ab"
+
+[versions]
+fabric = "0.15.7"
+minecraft = "1.20.4"

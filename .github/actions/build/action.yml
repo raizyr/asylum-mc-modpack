@@ -17,7 +17,7 @@ inputs:
 
 runs:
   using: "composite"
-  
+
   steps:
 
     # --- Checkout the repo

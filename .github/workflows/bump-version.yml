@@ -20,7 +20,7 @@ on:
         required: false
         default: '1.0.0'
         type: string
-      
+
 jobs:
   set-version:
     runs-on: ubuntu-latest
