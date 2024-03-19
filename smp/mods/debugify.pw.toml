@@ -1,6 +1,6 @@
 name = "Debugify"
 filename = "Debugify-1.20.4+1.0.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/QwxR6Gcd/versions/gGTvKKDk/Debugify-1.20.4%2B1.0.jar"
