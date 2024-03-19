@@ -1,24 +1,24 @@
-name: 'Bump Release Please Version | Pipeline'
+name: "Bump Release Please Version | Pipeline"
 
 on:
   workflow_dispatch:
     inputs:
       release-tag:
-        description: 'The release tag to bump the releases to'
+        description: "The release tag to bump the releases to"
         required: false
-        default: '1.0.0'
+        default: "1.0.0"
         type: string
       modpack:
-        description: 'Path to the modpack directory'
+        description: "Path to the modpack directory"
         required: false
-        default: 'main'
+        default: "smp"
         type: string
   workflow_call:
     inputs:
       release-tag:
-        description: 'The release tag to bump the releases to'
+        description: "The release tag to bump the releases to"
         required: false
-        default: '1.0.0'
+        default: "1.0.0"
         type: string
 
 jobs:
@@ -45,7 +45,7 @@ jobs:
       - name: Set the New Version
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_options: '--allow-empty'
+          commit_options: "--allow-empty"
           skip_dirty_check: true
           commit_message: |
             chore(${{ steps.branch.outputs.branch }}): release ${{ inputs.release-tag }}
