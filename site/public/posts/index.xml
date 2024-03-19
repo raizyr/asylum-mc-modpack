@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Osprey Delight Demo</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Osprey Delight Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 16 Mar 2024 01:21:09 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting to the Server</title>
+      <link>http://localhost:1313/posts/connecting/</link>
+      <pubDate>Sat, 16 Mar 2024 01:21:09 -0400</pubDate>
+      <guid>http://localhost:1313/posts/connecting/</guid>
+      <description>To connect to the server, you will need to follow these steps:&#xA;Log into Minecraft and click Multiplayer on the main menu.&#xA;Click Add Server and enter the following information:&#xA;Server Name: asylum Minecraft Server Server Address: minecraft.asylum.com </description>
+    </item>
+  </channel>
+</rss>

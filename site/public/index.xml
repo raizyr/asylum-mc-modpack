@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>asuylum minecraft</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on asuylum minecraft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 16 Mar 2024 01:21:09 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mods</title>
+      <link>http://localhost:1313/mods/</link>
+      <pubDate>Sat, 16 Mar 2024 01:21:09 -0400</pubDate>
+      <guid>http://localhost:1313/mods/</guid>
+      <description>The asylum smp modpack is hosted both at Modrinth in their mrpack format and on GitHub in packwiz TOML format. The modpack is a collection of mods that are used on the private Survival Multiplayer server for family and friends. The modpack is designed to be used with the Fabric mod loader and is intended to be used with the Fabric API.&#xA;Client Side [EMF] Entity Model Features [ETF] Entity Texture Features Async Pack Scan Balm Better Mount HUD BSL Shaders Capes Cloth Config API Collective CompleteConfig Continuity Debugify Dynamic FPS Enhanced Block Entities Fabric API Fabric Language Kotlin FabricSkyboxes FabricSkyBoxes Interop Faithful 32x FerriteCore ImmediatelyFast Indium Iris Shaders JourneyMap LambDynamicLights LibJF Lithium MixinTrace Mod Menu Model Gap Fix ModernFix More Chat History More Culling No Chat Reports OptiGUI Paginated Advancements &amp;amp; Custom Frames Puzzle Redstone Tweaks Reese&amp;rsquo;s Sodium Options Remove Reloading Screen Resourceful Lib Respackopts Sodium Sodium Extra spark Waystones YetAnotherConfigLib Your Options Shall Be Respected (YOSBR) Zoomify Server Side Argonauts Balm Cloth Config API Collective CompleteConfig Debugify Fabric API Fabric Language Kotlin FerriteCore JourneyMap Just Mob Heads Just Player Heads LibJF Lithium MixinTrace ModernFix No Chat Reports Prometheus Resourceful Lib spark Waystones Your Options Shall Be Respected (YOSBR) </description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Join</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description>Asylum minecraft is a private server for family and friends. We are not accepting new members at this time. If you are interested in joining, please contact us directly. Thank you for your understanding.</description>
+    </item>
+    <item>
+      <title>Play</title>
+      <link>http://localhost:1313/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/play/</guid>
+      <description>To play with us, download the fabric loader &amp;amp; the modpack, install them, and connect to the server.&#xA;Server Address: minecraft.asylum.zone</description>
+    </item>
+  </channel>
+</rss>
