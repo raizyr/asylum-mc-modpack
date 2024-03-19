@@ -1,4 +1,4 @@
-title: "asuylum minecraft"
+title: "asylum minecraft"
 baseURL: "https://minecraft.asylum.zone"
 languageCode: "en-US"
 # theme: "github.com/kdevo/osprey-delight/v5"
@@ -19,9 +19,8 @@ markup:
 module:
   imports:
   - path: github.com/kdevo/osprey-delight/v5
-  # useful for local development of the theme:
-  # replacements:
-  # - github.com/kdevo/osprey-delight/v5 -> ../../.
+  - path: github.com/hugomods/icons/vendors/simple-icons
+  - path: github.com/hugomods/icons/vendors/font-awesome
 
 ## Generic theme parameters:
 Params:
@@ -40,7 +39,7 @@ Params:
   background: "minecraft_wallpaper.png"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
-  opengraphImage: "/images/osprey-delight.png"
+  opengraphImage: "/images/asylum_logo.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
   favicon: "favicon.png"
@@ -67,22 +66,23 @@ Params:
   copyright: true
 
   # credit to the theme. If you want to support the theme by please leave this in, it's kept very tiny and short.
-  # credit: true
+  credit: true
+
+  # Adds a copy button in code block to copy the code it contains
+  ShowCodeCopyButtons: true
 
 ## Social links in footer:
 ##   The type specifies the icon to use. For more information, see: 
 ##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
   Social:
-  - type: twitter # references the icon to use
-    url: ""
-  - type: linkedin 
-    url: ""
-  - type: github
-    url: "https://github.com/hugo-mods/"
-  - type: heart
-    url: "https://github.com/sponsors/kdevo"
-  - type: spotify
-    url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
+  - type: 
+      vendor: simple-icons
+      name: modrinth 
+    url: "https://modrinth.com/project/asylum-mc-modpack"
+  - type: 
+      vendor: simple-icons
+      name: github
+    url: "https://github.com/raizyr/asylum-mc-modpack/"
 
 ## Additional theme features:
   Feat:
@@ -143,7 +143,6 @@ Menu:
     - name: "mods"
       # identifier controls the section type (and therewith the appearence).
       identifier: mods
-      pageRef: /mods
       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
       url: "/#mods"
       # weight controls the order of the menu items.

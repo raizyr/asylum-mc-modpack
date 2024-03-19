@@ -1,8 +1,11 @@
 +++
 title = 'Play'
-draft = true
 +++
 
-To play with us, download the fabric loader & the modpack, install them, and connect to the server.
+To play with us, download the [fabric loader](https://fabricmc.net) & the [modpack](https://modrinth.com/project/asylum-mc-modpack), install them, and connect to the server.
 
-Server Address: `minecraft.asylum.zone`
+### Server Address
+
+```shell
+minecraft.asylum.zone
+```

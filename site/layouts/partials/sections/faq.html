@@ -1,0 +1,18 @@
+{{ if site.Params.enforceSinglePage -}}
+  {{ warnf "enforceSinglePage is set to true. This is very likely not what you want for faq posts which will always redirect to main page with this option!"}}
+{{- end }}
+<div class="container">
+  <div class="row center-xs">
+    <div class="col-xs-12"><h1>{{ i18n "faq" }}</h1></div>
+  </div>
+  <div class="row xs">
+    <div class="col-xs-12 posts-list">
+      {{ range first 5 (where site.RegularPages "Section" "faq") }}
+        <details>
+          <summary>{{ .Title }}</summary>
+          <p>{{ .Content }}</p>
+        </details>
+      {{ end }}
+    </div>
+  </div>
+</div>

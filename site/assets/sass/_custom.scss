@@ -1,0 +1,40 @@
+.faq {
+  details {
+    summary {
+      @include size(h3);
+    }
+    p {
+      padding-left: 32px;
+    }
+  }
+}
+
+p.highlight,
+div.highlight,
+pre {
+  position: relative;
+  &:hover {
+    cursor: pointer;
+    .copy-code {
+      display: block;
+    }
+  }
+}
+
+code {
+  direction: ltr;
+}
+
+.copy-code {
+  display: none;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: auto;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(78, 78, 78, 0.8);
+  border-radius: 8px;
+  padding: 0 5px;
+  font-size: 14px;
+  user-select: none;
+}
