@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/raizyr/asylum-mc-modpack/compare/v1.0.1...v1.0.2) (2024-03-20)
+
+
+### Bug Fixes
+
+* **smp:** fix packwizignore to not add the changelog ([8419c5f](https://github.com/raizyr/asylum-mc-modpack/commit/8419c5f81cb1809b6bb6a123f3d3464c8b80fb88))
+
 ## [1.0.1](https://github.com/raizyr/asylum-mc-modpack/compare/v1.0.0...v1.0.1) (2024-03-20)
 
 
