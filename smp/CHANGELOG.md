@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/raizyr/asylum-mc-modpack/compare/v1.0.2...v1.0.3) (2024-03-20)
+
+
+### Bug Fixes
+
+* **smp/cadmus:** cadmus needs to be on client for claim map to work ([ebc9e25](https://github.com/raizyr/asylum-mc-modpack/commit/ebc9e25921e411d08ef03ee9c395f7cb6b75048d))
+
 ## [1.0.2](https://github.com/raizyr/asylum-mc-modpack/compare/v1.0.1...v1.0.2) (2024-03-20)
 
 
