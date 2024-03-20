@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "659ad8c714e22ea641482bdd1a664c2b041c245e8ac8484d1d6d0406a7cd65b6"
+
+[[files]]
 file = "mods/argonauts.pw.toml"
 hash = "e42ea9c4d6d2bf9f830ca6059eb9558d6368a41faabff08728f0cf90757c7e8a"
 metafile = true
@@ -47,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "02ae3b43c6bec32524af7d1d6e06dc90615cb5fbb2cfc7eefe896fdef4001a2d"
+hash = "60d43521b68e4639ad7e258a8d10759e70a22e543aa0050727283a848466d0b9"
 metafile = true
 
 [[files]]
