@@ -25,6 +25,11 @@ hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
 metafile = true
 
 [[files]]
+file = "mods/cadmus.pw.toml"
+hash = "c4149eafef79b813883ac0d2ae6bfaefdca2a66a68f0bc3c9e10c28bd4c13ba4"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "617563db0d44229fb65eb660130d02d1a4d2f29233eda03b68d3273e700326f8"
 metafile = true
