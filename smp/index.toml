@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "3b3eb136a09515edaa9d3b6fba49ac2d025c1dba4a5a0d9d7fdab1e17c6bddfb"
+metafile = true
+
+[[files]]
 file = "mods/argonauts.pw.toml"
 hash = "e42ea9c4d6d2bf9f830ca6059eb9558d6368a41faabff08728f0cf90757c7e8a"
 metafile = true
@@ -116,11 +121,6 @@ hash = "7169f560465ba70f204d3c4189cf3d1faef8ae6cf3dc063733a4d53f612a4d94"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "2703659045f906c35864e583f661030d2a2fe21c86136488d430009d1870788b"
-metafile = true
-
-[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "8ef3e19870ab9154bab0c28152702b92fc3a310155f4c86e8a559e993747951a"
 metafile = true
@@ -208,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "bab65e32078216683b5b01cf60d06cd01a3cd4ff1339d1b4de1091338c3b1e21"
 metafile = true
 
 [[files]]
