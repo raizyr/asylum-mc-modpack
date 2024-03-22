@@ -2,7 +2,7 @@ title: "asylum minecraft"
 baseURL: "https://minecraft.asylum.zone"
 languageCode: "en-US"
 # theme: "github.com/kdevo/osprey-delight/v5"
-tags: ["personal", "homepage", "portfolio"]
+tags: ["personal", "homepage", "minecraft"]
 #canonifyURLS: true
 #googleAnalytics: ""
 disableKinds: ["taxonomy"]
@@ -146,15 +146,15 @@ Menu:
       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
       url: "/#mods"
       # weight controls the order of the menu items.
-      weight: 1
+      weight: 3
     - name: "join"
       identifier: join
       url: "/#join"
-      weight: 2
+      weight: 1
     - name: "play"
       identifier: play
       url: "/#play"
-      weight: 3
+      weight: 2
     - name: "faq"
       identifier: faq
       url: "/#faq"

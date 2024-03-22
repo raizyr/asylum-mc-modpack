@@ -1,13 +1,7 @@
 +++
-title = 'Mods'
-date = 2024-03-16T01:21:09-04:00
+type = "modlist"
+title = 'Client Side Mods'
 +++
-
-The asylum smp modpack is hosted both at Modrinth in their mrpack format and on GitHub in packwiz TOML format. The modpack is a collection of mods that are used on the private Survival Multiplayer server for family and friends. The modpack is designed to be used with the Fabric mod loader and is intended to be used with the Fabric API.
-
-## Client Side
-{.row .center-xs}
-
 * [EMF] Entity Model Features
 * [ETF] Entity Texture Features
 * Async Pack Scan
@@ -57,29 +51,3 @@ The asylum smp modpack is hosted both at Modrinth in their mrpack format and on 
 * YetAnotherConfigLib
 * Your Options Shall Be Respected (YOSBR)
 * Zoomify
-
-## Server Side
-{.row .center-xs}
-
-* Argonauts
-* Balm
-* Cloth Config API
-* Collective
-* CompleteConfig
-* Debugify
-* Fabric API
-* Fabric Language Kotlin
-* FerriteCore
-* JourneyMap
-* Just Mob Heads
-* Just Player Heads
-* LibJF
-* Lithium
-* MixinTrace
-* ModernFix
-* No Chat Reports
-* Prometheus
-* Resourceful Lib
-* spark
-* Waystones
-* Your Options Shall Be Respected (YOSBR)

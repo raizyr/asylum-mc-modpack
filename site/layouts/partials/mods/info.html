@@ -1,0 +1,47 @@
+<div class="row modinfos">
+  <div class="col-xs-12 modinfo">
+    <details>
+      <summary>
+        <div>          
+          <div class="start-xs modinfo__title">
+            <h3>{{ .Params.title }}</h3>
+          </div>
+          {{ if .Params.docs }}
+          <div class="modinfo__icon">
+            <a href="{{ .Params.docs }}" target="_blank" class="modinfo__link" title="{{ .Params.title }} Documentation">
+              {{ $ctx := dict
+                "vendor" "fab"
+                "name" "readme"
+              }}
+              {{ partial "icons/icon" $ctx }}
+            </a>
+          </div>
+          {{ end }}
+          {{ if .Params.modrinth }}
+          <div class="modinfo__icon">
+            <a href="{{ .Params.modrinth }}" target="_blank" class="modinfo__link" title="{{ .Params.title }} on Modrinth">
+              {{ $ctx := dict
+                "vendor" "simple"
+                "name" "modrinth"
+              }}
+              {{ partial "icons/icon" $ctx }}
+            </a>
+          </div>
+          {{ end }}
+          {{ if .Params.github }}
+          <div class="modinfo__icon">
+            <a href="{{ .Params.github }}" target="_blank" class="modinfo__link" title="{{ .Params.title }} on Github">
+              {{ $ctx := dict
+                "vendor" "fab"
+                "name" "github"
+              }}
+              {{ partial "icons/icon" $ctx }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </summary>
+      <div class="details__content">{{ .Content }}</div>
+    </details>
+  </div>
+</div>

@@ -7,7 +7,7 @@
   </div>
   <div class="row xs">
     <div class="col-xs-12 posts-list">
-      {{ range first 5 (where site.RegularPages "Section" "faq") }}
+      {{ range .Pages }}
         <details>
           <summary>{{ .Title }}</summary>
           <p>{{ .Content }}</p>

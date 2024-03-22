@@ -2,11 +2,25 @@
   <div class="row center-xs">
     <div class="col-xs-12">
       <h1>{{ .Title }}</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 middle-xs">
       {{ .Content }}
     </div>
   </div>
+  {{ $mods := where .Site.RegularPages "Section" "mods" }}
+  {{ $modinfos := where $mods "Params.type" "eq" "modinfo" }}
+  {{ range $modinfos }}
+    {{ partial "mods/info" . }}
+  {{ end }}
+</div>
+<div class="container middle-xs">
+  {{ $modlists := where $mods "Params.type" "eq" "modlist" }}
+  {{ if $modlists }}
+    <div class="row center-xs">
+      <div class="col-xs-12 posts-list">
+        <h2>Full Mods List</h2>
+      </div>
+    </div>
+  {{ end }}
+  {{ range $modlists }}
+    {{ partial "mods/list" . }}
+  {{ end }}
 </div>
