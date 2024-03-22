@@ -151,6 +151,11 @@ hash = "3dedde5213176d72e1c353877fa44315945e8f3da2ba05f5679d81e9f558bb1d"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "692045d10a02b4c08f0a458f9ce872ffe3fbbac24a2fd7fb00072e9061f03eec"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
 metafile = true
